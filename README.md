@@ -1,1 +1,1 @@
-# lipid-degradation
+# lipolysis
