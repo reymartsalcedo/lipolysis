@@ -290,10 +290,6 @@ def test_run(ver, iters, radius, ratio, phys_params, t_final, num_steps, tol):
             )
         )
 
-        # if max([u_l2_err_, v_l2_err_, w_l2_err_, z_l2_err_]) < tol:
-        #     print('Error Tolerance Reached: [step, time]', [n, t])
-        #     break
-
         # Update progress bar
         set_log_level(LogLevel.PROGRESS)
         progress += 1
